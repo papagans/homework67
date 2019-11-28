@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1</title>
+</head>
+<body>
+	<div id="container"></div>
+	<script type="text/javascript">
+			function pashArman() {
+    			let div = document.createElement('div');
+				div.className = 'element';
+				j = Math.floor(Math.random() * 21) 
+				let text = document.createTextNode(j.toString());      
+				div.appendChild(text);                        
+				document.getElementById("container").appendChild(div);
+}
+		var intervalId = setInterval(pashArman, 5000);
+	</script>
+</body>
+</html>
